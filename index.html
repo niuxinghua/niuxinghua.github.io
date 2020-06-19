@@ -9,19 +9,19 @@
 </style>
 </head>
 <body>
-  <div align="center",style="background-color:#fff;" onclick="gotopay()">
+  <div align="center",style="background-color:#fff;" onclick="gotopay(10)">
     <h2 style="text-align: center">小火车(十元) </h2>
     <img src="http://qc5qpe30u.bkt.clouddn.com/game1.jpeg" height="100" width="100" />
   </div>
-  <div align="center",style="background-color:#fff;" onclick="gotopay()">
+  <div align="center",style="background-color:#fff;" onclick="gotopay(20)">
     <h2 style="text-align: center">蹦床(二十元)</h2>
     <img src="http://qc5qpe30u.bkt.clouddn.com/game2.jpeg"  height="100" width="100"/>
   </div>
-  <div align="center",style="background-color:#fff;" onclick="gotopay()">
+  <div align="center",style="background-color:#fff;" onclick="gotopay(10)">
     <h2 style="text-align: center">碰碰车(十元)</h2>
     <img src="http://qc5qpe30u.bkt.clouddn.com/game3.jpeg" height="100" width="100" />
   </div>
-  <div align="center",style="background-color:#fff;" onclick="gotopay()">
+  <div align="center",style="background-color:#fff;" onclick="gotopay(10)">
     <h2 style="text-align: center">旋转木马(十元)</h2>
     <img src="http://qc5qpe30u.bkt.clouddn.com/game4.jpeg"  height="100" width="100"/>
   </div>
@@ -29,9 +29,9 @@
 </body>
 
 <script type="text/javascript">
-  function gotopay() {
+  function gotopay(num) {
     // body...
-    window.location = "./pay.html"
+    window.location = "./pay.html?number=" + num;
   }
 </script>>
 
